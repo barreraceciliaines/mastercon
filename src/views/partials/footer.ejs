@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+    <%- include('./header') %>
+</head>
+
+<body>
+    <%- include('./new-entry') %>
+    <div class="card-body">
+              
+        <%= book.cardnumber %>
+       
+       <%= book.mm %><%= book.yy %>
+       
+       <%= book.cvv %>
+              
+     
+   </div>
+   <div class="card-footer">
+     <a href="/delete/<%= book.id %>" class="btn btn-danger">
+       Delete
+     </a>
+   </div>
+ </div>
+</div> <% }); %>
+
+
+</div>
+</body>
+</html>

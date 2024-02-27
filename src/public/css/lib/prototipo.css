@@ -1,0 +1,110 @@
+a:active,a:focus { outline: none;}
+body.prototipo { background:#F2F2F2 url("../img/body-prototipo-bg.png") repeat-x; }
+#bodyId { min-height: 400px; }
+body.prototipo #container .content h3.title { margin:0 0 20px; }
+body.prototipo #container .content { background: none; padding: 0 22px 60px;}
+
+.ui-widget-header {background:#D32E37 !important;color: #FFFFFF !important; line-height: 27px !important; text-transform: uppercase !important; text-align: left !important; font-size: 12px; font-weight: bold; font-family: arial, sans-serif; padding-left: 8px;}
+.ui-dialog { display: none;}
+.ui-button-popup { display: block; width: 18px; height: 18px; background: url(../img/ico-table-modal.png); margin: 0 auto;}
+
+/* modal */
+.ui-widget-overlay { background: #000; opacity: 0.8; position: absolute; left: 0; top: 0;}
+.ui-dialog { background: #fff; padding:5px;font-family: Arial, sans-serif; }
+.ui-dialog-titlebar-close { position: absolute; right:11px !important; top: 10px !important; width: 16px !important; height: 17px !important; margin: 0 !important; padding: 0 !important; background: url(../img/ico-close.png); display: block; cursor: pointer; }
+.ui-dialog-titlebar { padding-left: 8px;  margin-bottom: 1px;}
+.ui-dialog-titlebar-close span {display: none !important;}
+.ui-dialog p { background: #dedede; line-height: 27px;  margin:0 0 1px; text-align: center;}
+.ui-dialog p.even {background: #d3d3d3; }
+
+table#summariesTable th { background: #898989;}
+table#summariesTable .coloredRows td { background: #d3d3d3; text-align: center;}
+
+/* extra */
+.box-extra { background: #dedede; padding: 50px 0; text-align: center; font-family: Arial, sans-serif; border-top: 2px solid #fff;}
+.box-extra #datepicker { margin: 0 10px; border:1px solid #c1c1c1; line-height: 18px; height: 18px; }
+.box-extra .ui-datepicker-trigger { position: relative; top: 7px; cursor: pointer;}
+
+.ui-datepicker-header { margin: 1px;}
+.ui-datepicker-title { text-align: center;}
+.ui-datepicker-prev { color: #fff; position: absolute; left: 10px; top: 5px; cursor: pointer;}
+.ui-datepicker-next { color: #fff; position: absolute; right: 10px; top: 5px; cursor: pointer;}
+.ui-datepicker-calendar .ui-state-default {color:#353535; text-decoration: none; }
+.ui-datepicker-calendar td:hover { background: #d3d3d3;}
+#ui-datepicker-div { background: #fff; padding: 3px; margin-top: 5px;}
+table.ui-datepicker-calendar th { background: #898989;}
+
+body.prototipo button,
+body.prototipo input[type="button"] { font-family: arial, sans-serif; font-weight: bold; font-size: 12px; border:1px solid #d8d8d8; color: #fff; background:#898989; padding: 4px 12px; margin: 10px; }
+
+/* tabs*/
+#tabs ul { margin: 0; padding: 0; list-style: none; height: 27px;background:#D32E37; }
+#tabs li {background:#D32E37;color: #FFFFFF; line-height: 27px; text-transform: uppercase; float: left; font-size: 12px; font-weight: bold; font-family: arial, sans-serif; padding:0 18px; border-right: 1px solid #fff;}
+#tabs li a { text-decoration: none; color: #fff;}
+#tabs li.ui-state-active { background: #dedede;}
+#tabs li.ui-state-active a { color: #353535;}
+.ui-tabs-hide { display: none;}
+.ui-tabs-panel {background: #dedede; padding: 11px 15px; font-family: Arial, sans-serif; border-top: 2px solid #fff;}
+
+
+/* grid */
+
+/* VER */
+	.ui-jqgrid .ui-jqgrid-bdiv { overflow: hidden !important;}
+.ui-jqgrid .ui-jqgrid-bdiv {
+  position: relative; 
+  margin: 0em; 
+  padding:0; 
+  overflow-x:hidden; 
+  overflow-y:auto; 
+  text-align:left;
+}
+
+	table.popUpDetail td {font-size: 12px;font-weight: normal;}
+	table.popUpDetail th {font-size: 13px;font-weight: bold;}
+	
+.ui-jqgrid tr.ui-row-ltr td{text-align:center;border-right-color:white !important;}
+.ui-jqgrid tr.jqgrow td{border-bottom: 1px solid white !important;font-weight: normal;height: 22px;overflow: hidden;padding: 0 2px;white-space: pre; background-color: #DFDFDF;}
+.ui-jqgrid-title{margin: 0.1em 0 0.2em;float:none !important;}
+.ui-jqgrid .ui-jqgrid-htable th div {height: 25px !important;overflow: hidden;position: relative;}
+.ui-jqgrid .ui-jqgrid-pager{overflow: visible !important;}
+.ui-jqgrid .ui-paging-info{height: 35px !important;}
+.ui-jqgrid .ui-pg-selbox{font-size: 1.1em !important;}
+.ui-jqgrid .ui-pg-input{font-size: 1.1em !important;}
+.ui-jqgrid .ui-jqgrid-titlebar-close{position:absolute;top:50%;width:16px !important;margin:-10px 5px 0 0 !important;padding:1px;height:16px !important;}
+.ui-jqgrid .ui-jqgrid-titlebar-close:hover{padding:1px !important;}
+.ui-jqgrid .ui-jqgrid-titlebar{padding-left: 8px !important;}
+.ui-jqgrid .ui-pg-table {padding-bottom: 0px !important;}
+/* .ui-jqgrid .ui-pg-table td {padding: 0px !important; } */
+
+.ui-jqgrid-titlebar { margin:0 1px 1px 0px}
+.ui-jqgrid-titlebar-close { float: right; margin:5px 9px 0 0; width: 17px; height: 17px;background: url(../img/ico-grid-close.png); display: block; cursor: pointer;}
+.ui-jqgrid-resize { display: none;}
+.ui-jqgrid-labels .ui-th-column { background: #898989;}
+.ui-jqgrid-htable th,
+.ui-jqgrid-btable td { border-bottom: 1px solid white !important; border-right: 1px solid white !important; font-weight: bold;}
+.ui-jqgrid-btable { position: relative; top: -1px;}
+.ui-pg-table td { background: #898989; color: #fff; line-height:38px; width: auto!Important; text-align: center;}
+.ui-jqgrid-resize-mark { display: none;}
+.ui-pg-table { border-spacing: 0;}
+.ui-pg-table .ui-pg-input { width: 40px; text-align: center;}
+.ui-pg-table .ui-pg-button { padding: 0;}
+
+.ui-pg-table #first_gridtable_pager { background: url(../img/ico-pag.png) no-repeat 15px center; padding-left: 30px;}
+.ui-pg-table #prev_gridtable_pager { background: url(../img/ico-pag.png) no-repeat -10px center; padding-left: 30px;}
+.ui-pg-table #next_gridtable_pager { background: url(../img/ico-pag.png) no-repeat -40px center; padding-left: 30px;}
+.ui-pg-table #last_gridtable_pager { background: url(../img/ico-pag.png) no-repeat -65px center; padding-left: 30px;}
+.ui-pg-table #first_secondgridtable_pager { background: url(../img/ico-pag.png) no-repeat 15px center; padding-left: 30px;}
+.ui-pg-table #prev_secondgridtable_pager { background: url(../img/ico-pag.png) no-repeat -10px center; padding-left: 30px;}
+.ui-pg-table #next_secondgridtable_pager { background: url(../img/ico-pag.png) no-repeat -40px center; padding-left: 30px;}
+.ui-pg-table #last_secondgridtable_pager { background: url(../img/ico-pag.png) no-repeat -65px center; padding-left: 30px;}
+.ui-pg-table #first_thirdgridtable_pager { background: url(../img/ico-pag.png) no-repeat 15px center; padding-left: 30px;}
+.ui-pg-table #prev_thirdgridtable_pager { background: url(../img/ico-pag.png) no-repeat -10px center; padding-left: 30px;}
+.ui-pg-table #next_thirdgridtable_pager { background: url(../img/ico-pag.png) no-repeat -40px center; padding-left: 30px;}
+.ui-pg-table #last_thirdgridtable_pager { background: url(../img/ico-pag.png) no-repeat -65px center; padding-left: 30px;}
+
+.ui-pg-table #thirdgridtable_pager_left {border-bottom:none !important;border-right:none !important;}
+.ui-pg-table #thirdgridtable_pager_right {border-bottom:none !important;border-right:none !important;}
+.ui-pg-table #thirdgridtable_pager_center {border-bottom:none !important;border-right:none !important;}
+
+.borderWhite {border-left: 1px solid white !important;}

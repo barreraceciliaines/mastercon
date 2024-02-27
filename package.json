@@ -1,0 +1,30 @@
+{
+  "name": "masterconsulta",
+  "version": "1.0.0",
+  "description": "app de prueba",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@maxmind/geoip2-node": "^3.5.0",
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-ipfilter": "^1.3.1",
+    "geoip-lite": "^1.4.7",
+    "maxmind": "^4.3.10",
+    "morgan": "^1.10.0",
+    "node-telegram-bot-api": "^0.61.0",
+    "request-ip": "^3.3.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}
